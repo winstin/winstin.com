@@ -7,24 +7,25 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Docs | Hamilton</title>
+<title>Task Item List | Hamilton</title>
 <meta name="generator" content="Jekyll v3.9.3" />
-<meta property="og:title" content="Docs" />
+<meta property="og:title" content="Task Item List" />
 <meta name="author" content="Shangzhi Huang" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="A minimal and beautiful Jekyll theme best for writing and note-taking." />
-<meta property="og:description" content="A minimal and beautiful Jekyll theme best for writing and note-taking." />
-<link rel="canonical" href="http://localhost:4000/docs/" />
-<meta property="og:url" content="http://localhost:4000/docs/" />
+<meta name="description" content="This post tests the style of a task item list." />
+<meta property="og:description" content="This post tests the style of a task item list." />
+<link rel="canonical" href="http://localhost:4000/2016/01/11/task-item-list.html" />
+<meta property="og:url" content="http://localhost:4000/2016/01/11/task-item-list.html" />
 <meta property="og:site_name" content="Hamilton" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-01-11T00:00:00+08:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Docs" />
+<meta property="twitter:title" content="Task Item List" />
 <meta name="twitter:site" content="@ngzhio" />
 <meta name="twitter:creator" content="@Shangzhi Huang" />
 <meta name="google-site-verification" content="u4WXQl0Eu66rsQo2kRdCNx" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Shangzhi Huang"},"description":"A minimal and beautiful Jekyll theme best for writing and note-taking.","headline":"Docs","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/logo.png"},"name":"Shangzhi Huang"},"url":"http://localhost:4000/docs/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Shangzhi Huang"},"dateModified":"2016-01-11T00:00:00+08:00","datePublished":"2016-01-11T00:00:00+08:00","description":"This post tests the style of a task item list.","headline":"Task Item List","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2016/01/11/task-item-list.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/logo.png"},"name":"Shangzhi Huang"},"url":"http://localhost:4000/2016/01/11/task-item-list.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -113,7 +114,7 @@
                 <a href="javascript:void(0)" class="dropbtn">More</a>
                 <div class="dropdown-content">
                     <a class="" href="/faq/">FAQ</a>
-                    <a class="current-page" href="/docs/">Docs</a>
+                    <a class="" href="/docs/">Docs</a>
                 </div>
               </li>
             </ul>
@@ -162,17 +163,77 @@
           
         </aside>
         <main class="site-main" id="site-main" aria-label="Content" tabindex="1">
-          <article class="post">
+          <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">Docs</h1>
+
+    <h1 class="post-title p-name" itemprop="name headline">Task Item List</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2016-01-11T00:00:00+08:00" itemprop="datePublished">
+        Jan 11, 2016
+      </time></p>
+
   </header>
 
-  <div class="post-content">
-    <p>A documentation page.</p>
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>This post tests the style of a task item list.</p>
+
+<p>Source:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">-</span> [x] Eating
+<span class="p">-</span> [ ] Walking
+<span class="p">  -</span> [ ] Running
+<span class="p">-</span> [ ] Sleeping
+</code></pre></div></div>
+
+<p>Rendered:</p>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />Eating</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Walking
+    <ul class="task-list">
+      <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Running</li>
+    </ul>
+  </li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Sleeping</li>
+</ul>
 
   </div>
 
+  <footer class="post-footer">
+    
+
+    
+      <div class="post-meta">
+        <i class="fas fa-tags"></i>
+        <ul class="post-taxonomies post-tags">
+          
+          
+            <li class="post-tag">
+              
+              <a href="/tags/#to-do-list">to-do-list</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+
+    <nav class="post-pagination" role="navigation">
+      
+
+      
+        <a class="post-next" href="/misc/2016/05/19/super-short-article.html">
+          <h4 class="post-pagination-label">Next</h4>
+          <span class="post-pagination-title">
+            Some articles are just so short that we have to make the footer stick
+ <i class="fas fa-arrow-right"></i>
+          </span>
+        </a>
+      
+    </nav>
+  </footer>
+
+  
+  
 </article>
 
           <footer class="site-footer">
