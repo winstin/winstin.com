@@ -1,2 +1,0 @@
-# winstin.com
-website
